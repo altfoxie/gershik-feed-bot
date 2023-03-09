@@ -13,7 +13,7 @@ type promptAuthenticator struct{}
 
 func promptFor(s string) (input string) {
 	for {
-		fmt.Printf("%s: ", s)
+		fmt.Print(s)
 		fmt.Scanln(&input)
 		input = strings.TrimSpace(input)
 		if input != "" {
