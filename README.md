@@ -48,3 +48,6 @@ Also, there is a filtering feature, so you can filter out messages that contain 
 | --- | --- | --- |
 | channels | []int64 | List of channels IDs where the filter should be applied. |
 | text | string | Text to filter, not case sensitive. |
+
+## License
+MIT
