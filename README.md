@@ -30,14 +30,14 @@ Also, there is a filtering feature, so you can filter out messages that contain 
 ### User
 | Name | Type | Description |
 | --- | --- | --- |
-| session_path | string | Path to the session json file. |
+| session_path | string | Path to the session JSON file. |
 | app_id | int | API ID from [here](https://my.telegram.org/apps). |
 | app_hash | string | API hash from [here](https://my.telegram.org/apps). |
 
 ### Poller
 | Name | Type | Description |
 | --- | --- | --- |
-| storage_path | string | Path to the storage json file. |
+| storage_path | string | Path to the storage JSON file. |
 | inteval | int | Polling interval in seconds. |
 | channels_interval | int | Interval between polling different channels in seconds. |
 | mark_as_unread | bool | Mark messages as unread after forwarding. |
