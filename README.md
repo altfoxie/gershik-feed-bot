@@ -10,9 +10,9 @@ Also, there is a filtering feature, so you can filter out messages that contain 
 1. Create a bot using [@BotFather](https://t.me/BotFather).
 2. Grab your API ID and API hash from [here](https://my.telegram.org/apps).
 3. Get the binary from [releases](https://github.com/altfoxie/gershik-feed-bot/releases) or build it yourself.
-4. Run it withouth any arguments to generate a config file.
+4. Run it without any arguments to generate a config file.
 5. Fill in the config file `config.yml`.
->> **Note:** You can get your Telegram ID by sending `/getid` to [@myidbot](https://t.me/myidbot).
+> **Note:** You can get your Telegram ID by sending `/getid` to [@myidbot](https://t.me/myidbot).
 6. Run it again and enjoy!
 
 ## Building
